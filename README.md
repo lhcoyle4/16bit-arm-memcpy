@@ -1,0 +1,2 @@
+# 16bit-arm-memcpy
+Basically a memcpy subroutine written in 16-bit ARM assembly (Thumb). The subroutine complies with C function calls and is tested by running the 'main.c' file, which loads the RAM with known values, calls the blockmove subroutine and compares the values at the destination address with the source. Work was done in the Code Composer IDE and code was run on the TM4C123GH6PM, a 32-bit, 80MHz Cortex M with FPU which can run Thumb2 code.
